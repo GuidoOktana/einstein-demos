@@ -117,7 +117,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.LikelihoodToUpgrade__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -221,7 +221,13 @@
         <field>Contact.Elegible_For_Financing__c</field>
         <readable>true</readable>
     </fieldPermissions>
-
+    
+ </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Last_CSAT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>ED</label>
     <!-- <license>System Administrator User</license> -->
