@@ -216,11 +216,7 @@
         <field>Contact.IsEmailBounced</field>
         <readable>true</readable>
     </fieldPermissions>
-      <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Elegible_For_Financing__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+
 
     <hasActivationRequired>false</hasActivationRequired>
     <label>ED</label>
