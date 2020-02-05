@@ -269,7 +269,6 @@
         <readable>true</readable>
     </fieldPermissions>
 
- 
     <hasActivationRequired>false</hasActivationRequired>
     <label>ED</label>
     <!-- <license>System Administrator User</license> -->
@@ -291,6 +290,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Recommendation</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+        <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>WorkOrder</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
 </PermissionSet>
