@@ -409,8 +409,8 @@
         <field>WorkOrder.Tax</field>
         <readable>true</readable>
     </fieldPermissions>
-      <fieldPermissions>
-        <editable>false</editable>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WorkOrder.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
