@@ -227,7 +227,6 @@
         <readable>true</readable>
     </fieldPermissions>
 
-    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Recommendation.ImageId</field>
