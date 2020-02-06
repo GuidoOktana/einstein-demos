@@ -2,10 +2,17 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
+            "default": false,
             "package": "einstein-demos",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "einstein-demos-pck",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
         }
     ],
     "namespace": "",
@@ -13,6 +20,8 @@
     "sourceApiVersion": "47.0",
     "packageAliases": {
         "einstein-demos": "0Ho6g000000PB5XCAW",
-        "einstein-demos@0.1.0-1": "04t6g000006K2LIAA0"
+        "einstein-demos@0.1.0-1": "04t6g000006K2LIAA0",
+        "einstein-demos-pck": "0Ho6g000000PB61CAG",
+        "einstein-demos-pck@0.1.0.-1": "04t6g000006yy1JAAQ"
     }
 }
