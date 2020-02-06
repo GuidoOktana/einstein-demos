@@ -227,26 +227,7 @@
         <readable>true</readable>
     </fieldPermissions>
 
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.AcceptanceLabel</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.ActionReference</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.Category__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions> -->
     <fieldPermissions>
         <editable>true</editable>
         <field>Recommendation.ImageId</field>
@@ -255,16 +236,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Recommendation.IsActionActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.Name</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Recommendation.RejectionLabel</field>
         <readable>true</readable>
     </fieldPermissions>
 
@@ -300,11 +271,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>WorkOrder.Description_Translated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>WorkOrder.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -320,7 +286,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>WorkOrder.DurationTyoe</field>
+        <field>WorkOrder.DurationType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -346,11 +312,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>WorkOrder.LocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>WorkOrder.OwnerId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
